@@ -188,7 +188,7 @@ public class ShortCodeGenerator {
      * @param num The number to encode
      * @return Base62 encoded string
      */
-    private String encodeBase62(long num) {
+    String encodeBase62(long num) {
         if (num == 0) {
             return String.valueOf(charset.charAt(0));
         }
